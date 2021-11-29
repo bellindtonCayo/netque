@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>NetQ</title>
+<link rel="icon" type="image/x-icon" href="/assets/img/netq-favicon.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/main2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif; text-align: center;}
+.block{ width: 500px; margin: 20px auto}
+</style>
+
+
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-padding-32" > 
+  
+  <div class="w3-left">
+  <a href="http://localhost:8080"><img src="/assets/img/netq-logo.png" width="125px"></a>
+  </div>
+</br></br>
+<div class=" w3-card-2 w3-center w3-white">
+
+  <nav >
+    <ul style="list-style: none; display: inline-flex;">
+
+  <li><a href="http://localhost:8080" style="margin: 40px;"><img src="/assets/img/neqplus.png" width="40px"></a>
+ <li><a href="http://localhost:8080/posts" style="margin: 40px;"><img src="/assets/img/play.png" width="30px"></a>
+ <li><a href="http://localhost:8080/groups" style="margin: 40px;"><img src="/assets/img/groups.png" width="70px"></a>
+  <li><a href="http://localhost:8080" style="margin: 40px;"><img src="/assets/img/home.png" width="50px"></a>
+ 
+</nav>
+
+ </div>
+</header>
+
+
+<!-- greate groups -->
+
+
+  <div class="block" >
+
+<!--search groups-->
+
+<form action=""  >
+        <fieldset  class="w3-card-4 w3-padding-16  "  style="background: #ffffff; ">
+          
+      
+            <label for="games">Search a group:</label>
+            
+          <input type="text" placeholder="Group name" name="groupname"><br /><br />
+         
+      <br> </br>
+          <input class="w3-hoverable" type="submit" value="search" />
+        </fieldset>
+      </form>
+
+<!-- Create group-->
+      <form action=""  >
+        <fieldset  class="w3-card-4 w3-padding-16  "  style="background: #ffffff; ">
+          
+      <h4>Create a group</h4>
+          <input type="text" placeholder="Group name" name="groupname"><br /><br />
+          <input type="text" placeholder="Alias" name="Alias"><br /><br />
+          <input type="text" placeholder="Email" name="email"> <br/> <br />
+      
+          <select name="games" id="games">
+            <optgroup label="RPG">
+              <option value="Zelda">Zelda</option>
+              <option value="Elders-Scrolls">Elder Scrolls</option>
+            </optgroup>
+            <optgroup label="Adventure">
+              <option value="Uncharted">Uncharted</option>
+              <option value="Tomb-raider">Tomb raider</option>
+            </optgroup>
+          </select>
+      <br> </br>
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  
+</footer>
+
+</body>
+</html>
